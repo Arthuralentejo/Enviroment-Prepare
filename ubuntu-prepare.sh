@@ -2,7 +2,7 @@
 
 #update
 sudo apt update -y
-sudo apt install -y git snapd vim zsh wget unzip jq telnet curl htop terminator docker docker-compose python3 python3-pip kate mousepad exa asdf 
+sudo apt install -y git snapd vim zsh wget unzip jq telnet curl htop terminator docker docker-compose python3 python3-pip kate mousepad exa
 sudo apt autoclean -y
 sudo apt autoremove -y
 sudo snap install vlc
