@@ -26,6 +26,11 @@ git clone --depth=1 https://github.com/ryanoasis/nerd-fonts.git
 ./nerd-fonts/install.sh
 rm -rf nerd-fonts
 
+#install exa (new LS)
+wget https://github.com/ogham/exa/releases/download/v0.10.0/exa-linux-x86_64-v0.10.0.zip
+sudo unzip -o -j exa-linux-x86_64-v0.10.0.zip "bin/exa" -d /usr/bin
+rm exa-linux-x86_64-v0.10.0.zip
+
 #Install oh-my-tmux
 git clone --depth=1 https://github.com/gpakosz/.tmux.git ~/.tmux
 cp .tmux.conf.local ~/.tmux
